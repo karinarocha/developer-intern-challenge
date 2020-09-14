@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+*{
+  text-decoration: none;
+}
+body{
+  margin:0;
+  padding:0;
+  background: #CCC;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+header{
+  background: #FFF;
+  width: 100%;
+  height: 40px;
+  top: 0;
+}
+
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.container-main{
+  width: 100%;
+  height: 400px;
+  background: url(./assets/Bg.jpg);
+  background-size: contain;
+  color: #FFF;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+h1{
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+#result{
+  outline: none;
+  border: none;
+}
+
+#url{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #F96B11;
+  background: transparent;
+  width: 31%;
+  padding: 7px;
+  margin-top: 50px;
+}
+
+::-webkit-input-placeholder{
+  color: #F96B11;
+  font-weight: bolder;
+  margin-left:0;
+}
+
+#button{
+  background-color: #F96B11;
+  border: 1px solid #F96B11;
+  color: #FFF;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 5px;
+  padding: 8px 10px;
+  border-radius: 1x;
+}
+
+h2{
+    color: #AA1423;
+    font-weight: bolder;
+}
+
+.container-top5{
+  width: 100%;
+  height: 350px;
+  background: #FFF;
+  color: #AA1423;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+table{
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #EEE;
+}
+
+span{
+  color: #AA1423;
+  font-weight: 900;
+}
+
+.clicks{
+  color: #777;
+  font-weight: 900;
+}
+
+.container-hits{
+  width: 100%;
+  height: 300px;
+  background: #EEE;
+  color: #AA1423;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  font-weight: 400;
+
+}
+
+h5{
+    color: #777;
+    font-weight: 500;
+}
+
+footer{
+  background: #FFF;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+
+}
+
+.left{
+  color: #AA1423;
+  font-size: 20px;
+  float: left;
+  width: 20em;
+  margin-top: 14px;
+  margin-left: 10em;
+  margin-right: 3em;
+  font-weight: 900;
+}
+
+.right{
+  color: #AA1423;
+  font-size: 20px;
+  float: right;
+  width: 20em;
+  margin-top: 14px;
+  margin-right: -8em;
+}
+
+.icon{
+    padding: 0 8px;
+}
